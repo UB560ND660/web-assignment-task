@@ -187,6 +187,64 @@ main {
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* challange part  */
+
+.Challanging-part {
+    margin-bottom: 150px;
+}
+
+.Challanging-part-Title {
+    text-align: center;
+    color: #252432;
+    font-size: 42px;
+    margin-bottom: 50px;
+
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: -70px;
+
+}
+
+.card {
+    max-width: 365px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    width: 390px;
+}
+
+.stars {
+    display: flex;
+    gap: 5px;
+}
+
+.challange-comments {
+    max-width: 315px;
+}
+
+.inner-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inner-box img {
+    width: 40x;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.name-details {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.name-details h4 {
+    margin-bottom: -10px;
+}
+
 /* section-4 styles  */
 
 .section-4 {
@@ -255,10 +313,21 @@ main {
 }
 
 .form input[type="text"],
-.form input[type="email"],
-.form textarea {
+.form input[type="email"] {
     height: 64px;
-    border-radius: 5px;
+    border-radius: 10x;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.form textarea {
+    height: 200px;
+    border-radius: 10px;
     background-color: white;
     display: block;
     width: 100%;
