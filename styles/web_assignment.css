@@ -42,7 +42,7 @@ body {
 
 .logo {
     color: #4E47FF;
-    font-size: 34px;
+    font-size: 44px;
     font-weight: 800;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .signup-btn {
-    padding: 12px 36px;
+    padding: 14px 38px;
     color: #ffff;
     font-weight: 600;
     border: 1px solid black;
@@ -88,12 +88,15 @@ body {
     border: 0px solid black;
     color: #ffff;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .Stay-focused-btn:hover {
     background-color: lightgray;
     color: black;
     transition: 0.3s;
+    border: 1px solid black;
+    font-weight: 600;
 }
 
 
@@ -133,10 +136,20 @@ main {
 }
 
 .launch-live-p-btn {
-    padding: 12px 36px;
+    padding: 18px 36px;
     border: 0;
     border-radius: 10px;
     color: #ffff;
+    font-weight: 600;
+}
+
+.launch-live-p-btn:hover {
+    background-color: lightgray;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: 600;
 }
 
 /* section 3 style  */
@@ -202,9 +215,74 @@ main {
     border-radius: 10px;
     color: #ffff;
     background-color: rgba(78, 71, 255, 1);
+    font-weight: 600;
+}
+
+.get-started-free:hover {
+    background-color: lightgray;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: 600;
 }
 
 .image-webflow img {
     border-radius: 50px;
     margin-bottom: 80px;
+}
+
+/* section 5 style  */
+
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    gap: 100px;
+    margin-bottom: 150px;
+}
+
+.section-5 h1 {
+    font-size: 97px;
+    width: 600px;
+}
+
+
+
+.form {
+    width: 50%;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 20px;
+}
+
+.get-in-touch-btn {
+    padding: 18px 36px;
+    margin-bottom: 30px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #ffff;
+    background-color: rgba(78, 71, 255, 1);
+}
+
+.get-in-touch-btn:hover {
+    background-color: lightgray;
+    color: black;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: 600;
 }
