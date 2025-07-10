@@ -210,7 +210,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: -70px;
+    gap: 100px;
 
 }
 
