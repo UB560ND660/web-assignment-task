@@ -1,0 +1,133 @@
+/* shared styles  */
+
+.open-sans-inter {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+.open-sans-raleway {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.purple-color {
+    background-color: #4E47FF;
+}
+
+
+/* header section  */
+
+.header {
+    background-image: url('/Assets/Hero-bg.png');
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.logo {
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.signup-btn {
+    padding: 12px 36px;
+    color: #ffff;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px black;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: lightgray;
+    color: black;
+    transition: 0.3s;
+}
+
+.header-title-and-button {
+    text-align: center;
+}
+
+.header-title {
+    margin-bottom: 37px;
+    font-size: 60px;
+    margin: 0 267px;
+    color: #252432;
+}
+
+.header-title h1 {
+    font-weight: 600;
+}
+
+.Stay-focused-btn {
+    margin-bottom: 152px;
+    padding: 18px 36px;
+    border-radius: 10px;
+    border: 0px solid black;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.Stay-focused-btn:hover {
+    background-color: lightgray;
+    color: black;
+    transition: 0.3s;
+}
+
+
+/* main section  */
+
+
+/* section-2  */
+
+.section-2 {
+    margin: 150px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-2 img {
+    width: 402px;
+    height: 328px;
+    border-radius: 60px;
+}
+
+.details-part {
+    max-width: 517px;
+}
+
+.details-part h3 {
+    font-size: 42px;
+    color: rgba(37, 36, 50, 1)
+}
+
+.details-part p {
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.launch-live-p-btn {
+    padding: 12px 36px;
+    border: 0;
+    border-radius: 10px;
+    color: #ffff;
+}
