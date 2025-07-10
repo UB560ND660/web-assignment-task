@@ -1,5 +1,12 @@
 /* shared styles  */
 
+
+.inter-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 .open-sans-inter {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -352,4 +359,38 @@ main {
     cursor: pointer;
     border: 1px solid black;
     font-weight: 600;
+}
+
+footer {
+    background-color: #ffff;
+    padding: 104px 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.last-logo {
+    font-size: 100px;
+}
+
+
+footer p {
+    color: rgba(137, 135, 161, 1);
+    width: 532px;
+    margin: 0 auto;
+}
+
+
+footer nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    /* margin: 0; */
+    padding: 0;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
 }
