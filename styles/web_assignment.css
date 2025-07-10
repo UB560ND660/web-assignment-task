@@ -93,12 +93,14 @@
 
 
 /* main section  */
-
+main {
+    margin: 0 200px;
+}
 
 /* section-2  */
 
 .section-2 {
-    margin: 150px 200px;
+    margin: 150px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -130,4 +132,39 @@
     border: 0;
     border-radius: 10px;
     color: #ffff;
+}
+
+/* section 3 style  */
+
+.section-3 {
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    align-items: center;
+    padding: 30px 60px;
+    border-radius: 20px;
+    margin-bottom: 150px;
+}
+
+.section-3 h3 {
+    font-size: 38px;
+    margin: 10px 0 0 -20px;
+}
+
+
+.section-3-informations {
+    display: flex;
+    gap: 158px;
+    justify-content: space-evenly;
+}
+
+.section-3-information-box h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin-bottom: -10px;
+}
+
+.section-3-information-box p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
