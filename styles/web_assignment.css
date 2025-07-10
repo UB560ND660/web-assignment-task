@@ -323,10 +323,12 @@ form label {
     margin-bottom: 5px;
 }
 
+
 .form input[type="text"],
-.form input[type="email"] {
+.form input[type="email"],
+.labe {
     height: 64px;
-    border-radius: 10x;
+    border-radius: 10px;
     background-color: white;
     display: block;
     width: 100%;
@@ -334,6 +336,20 @@ form label {
     margin-bottom: 20px;
     border: none;
     font-size: 20px;
+}
+
+.labe {
+    background-color: #4E47FF;
+    color: #ffff;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 100%;
+    width: 740px;
+}
+
+.labe:hover {
+    background-color: #252432;
+    transition: 0.3s;
 }
 
 .form textarea {
