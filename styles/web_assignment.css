@@ -10,11 +10,9 @@
 
 
 .open-sans-raleway {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
 }
 
 .purple-color {
@@ -30,7 +28,7 @@ body {
 
 .header {
     background-image: url('/Assets/Hero-bg.png');
-    box-shadow: 0 0 2px;
+    /* box-shadow: 0 0 2px; */
 }
 
 .navbar {
