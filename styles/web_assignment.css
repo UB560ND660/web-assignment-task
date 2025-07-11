@@ -34,7 +34,7 @@ body {
 /* header section  */
 
 .header {
-    background-image: url('./Assets/Hero-bg.png');
+    background-image: url('../Assets/Hero-bg.png');
     /* box-shadow: 0 0 2px; */
 }
 
